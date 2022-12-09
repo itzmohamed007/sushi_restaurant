@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+body {
+    background-color: #F2F6F5;
+    margin: 0px;
+}
+
+.index-img {
+    POSITION: relative;
+    TOP: -83PX;
+    width: 50%;
+    margin-bottom: -7%;
+}
+
+.plate {
+    display: none;
+}
+
+.title {
+    POSITION: ABSOLUTE;
+    right: 30%;
+    TOP: 0;
+    line-height: 1.5;
+}
+
+.tatou {
+    POSITION: ABSOLUTE;
+    RIGHT: 5%;
+    TOP: 15%;
+    PADDING: 10PX;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 100%;
+}
+
+.sous-titre {
+    font-weight: lighter;
+    color: gray;
+}
+
+.botton {
+    padding: 4% 8%;
+    margin-top: auto;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 200;
+    box-shadow: 0 1px 20px 3px rgba(97, 97, 97, 0.1);
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+    margin-top: 3%; 
+    margin-right: 7%;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: none;
+}
+
+.exit {
+    display: none;
+}
+
+.cart
+{
+    display: none;
+}
+
+/* footer section */
+.footer {
+    background-color: #808080;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 2%;
+    color: white;
+  }
+  
+  .footer .new-footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 15%;
+  }
+  
+  .footer .links .first {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .footer .contact .second {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .footer .connect .third {
+    display: flex;
+    display: block;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .info-links {
+    color: rgb(230, 227, 227);
+  }
+  
+  .info-text {
+    color: rgb(230, 227, 227);
+  }
+  
+  .info-connect {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .footer .copyright {
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    display: grid;
+    justify-content: space-evenly;
+    margin-top: 5%;
+  }
+
+  @media screen and (max-width: 1195px) {
+    .footer .new-footer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 808px) {
+    .footer .new-footer {
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
+
+@media screen and (max-width: 612px) {
+  * {
+    overflow-x: hidden;
+  }
+     .nav ul {
+        display: none;
+        list-style: none;
+        margin-left: 10%;
+        margin-top: 20%;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-left: 20%;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        display: flex;
+        display: block;
+        width: 60%;
+      }
+      .nav .index-class {
+        margin-top: 10%;
+      }
+      .nav .cart-class {
+        margin-top: 10%;
+      }
+      .nav .propos-class {
+        margin-top: 10%;
+      }
+      .nav .contact-class {
+        margin-top: 10%;
+      }
+      .nav a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+        color: white;
+        padding: 2%;
+      }
+      .nav {
+        position: absolute;
+        left: -100%;
+        width: 100%;
+      }
+      .active {
+        width: 100%;
+        left: 0%;
+        z-index: 12;
+      }
+
+      .footer .new-footer {
+        margin-left: 20%;
+      }
+
+      .footer .new-footer .links .first{
+        font-size: 1.4rem ;
+      }
+      .footer .new-footer .links .info-links{
+        font-size: 1rem ;
+      }
+      .footer .new-footer .contact .second{
+        font-size: 1.4rem ;
+      }
+      .footer .new-footer .contact .info-text{
+        font-size: 1rem ;
+      }
+      .footer .new-footer .connect .third{
+        font-size: 1.4rem ;
+      }
+
+      .footer .copyright{
+        font-size: 1rem ;
+        text-align: center;
+      }
+      
+      .menu {
+        display: block;
+        font-size: 2rem;
+        padding-bottom: 5%;
+        cursor: pointer;
+        float: right;
+        margin: 5%;
+      }
+    
+      .exit {
+        display: block;
+        margin-left: 10%;
+        margin-top: 10%;
+        font-size: 2rem;
+        padding-bottom: 5%;
+        cursor: pointer;
+      }
+    
+      .cart {
+        padding-left: 35%;
+        padding-top: 10%;
+      }
+
+.apropos{
+    position: relative;
+    z-index: 20;
+    color: #fff;
+}
+
+
+    .index-img  {
+        display: none;
+    }
+
+    .plate {
+      display: block;
+      POSITION: relative;
+      width: 600px;
+      right: 30%;
+      height: 512px;
+      margin-top: 60%;
+    }
+
+    .cart {
+        padding-left: 35%;
+        padding-top: 10%;
+    }
+    
+    .pr{
+        display: none;
+        top:50%;
+        }
+
+      .title {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px;
+      }
+
+    .title .main-title{
+        line-height: 1.5;
+        padding-top: 20%;
+    }
+
+    .title .sous-titre {
+      text-align: center;
+    }
+    
+    .tatou {
+        POSITION: ABSOLUTE;
+        left: 5%;
+        TOP: 15%;
+        PADDING: 10PX;
+        line-height: 1.5;
+        font-weight: bold;
+        line-height: 2;
+    }
+
+    .main-title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .sous-titre {
+        font-weight: lighter;
+        color: gray;
+    }
+    
+    .botton {
+        padding: 4% 8%;
+        margin-top: auto;
+        background-color: white;
+        border: none;
+        border-radius: 20px;
+        text-decoration: none;
+        color: gray;
+        font-weight: 200;
+        box-shadow: 0 1px 20px 3px rgba(97, 97, 97, 0.1);
+    }
+
+    .index-class {
+        text-align: center;
+        background-color: rgb(220, 213, 213);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .cart-class {
+        text-align: center;
+        background-color: rgb(220, 213, 213);
+        border: none;
+        border-radius: 20px;
+    }
+
+    .contact-class {
+        text-align: center;
+        background-color: rgb(220, 213, 213);
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 15%;
+    }
+
+    .propos-class {
+        text-align: center;
+        background-color: rgb(220, 213, 213);
+        border: none;
+        border-radius: 20px;
+    }
+}

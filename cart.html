@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style_cart.css">
+    <title>Acceuil</title>
+    <meta name="description" content="umai sushi est un restaurant professionnel qui vous offrira une expérience qui vous apportera du bonheur à chaque fois que vous vous en souviendrez">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="exit">
+                    <i class="fa-solid fa-x"></i>
+                </li>
+                <li class="index-class">
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li class="cart-class">
+                    <a href="cart.html">Carte</a>
+                </li>
+                <li class="propos-class">
+                    <a href="propos.html">A propos</a>
+                </li>
+                <li class="contact-class">
+                    <a href="contact.html">Contact</a>
+                </li> 
+            </ul>
+        </nav>
+    </header>
+    <div class="cart-icon">
+        <i class="fa-solid fa-cart-shopping icon"></i>
+    </div>
+
+    <!-- cart -->
+    <div class="CART" >
+        <div class="cart-exit"><i class="fa-solid fa-x EXIT"></i></div>
+        <div class="cart-title">PANIER</div>
+        <div id="produits"></div>
+        <button onclick="popUp()" class="confirm">confirmer</button>
+    </div>
+
+    <!-- shop content -->
+    <section class="shop-content">
+        <h2 class="shop-title">Cart</h2>
+
+        <!-- drop down list -->
+        <div class="drop-btn">
+            <select name="drop-down" class="drop-down">
+                <option value="menu">Menu</option>
+                <option value="salade">Salade</option>
+                <option value="ramen">Ramen</option>
+                <option value="sushi">Sushi</option>
+            </select>
+        </div>
+
+        <!-- JAPANESE TEXT -->
+        <div class="tatou">
+            <p>私<br>た<br>ち<br>の<br>レ<br>ス<br>ト<br>ラ<br>ン<br>へ<br>よ<br>う<br>こ<br>そ</p>
+        </div>
+
+        <!-- menu content -->
+        <div class="shop">
+
+            <!-- box one -->
+            <div class="product-box ramen">
+                <img src="./img/ramen/ramen1.jpg" alt="" class="product-img">
+                <h2 class="product-title">RAMEN</h2>
+                <span class="price">80 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box two -->
+            <div class="product-box ramen">
+                <img src="./img\ramen\ramen2.jpg" alt="" class="product-img">
+                <h2 class="product-title">RAMEN</h2>
+                <span class="price">80 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box three -->
+            <div class="product-box ramen">
+                <img src="./img\ramen\ramen3.jpg" alt="" class="product-img">
+                <h2 class="product-title">RAMEN</h2>
+                <span class="price">80 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box four -->
+            <div class="product-box ramen">
+                <img src="./img\ramen\ramen4.jpg" alt="" class="product-img">
+                <h2 class="product-title">RAMEN</h2>
+                <span class="price">80 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box five -->
+            <div class="product-box sushi">
+                <img src="./img\suchi\sushi1.jpg" alt="" class="product-img">
+                <h2 class="product-title">SUSHI</h2>
+                <span class="price">60 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box six -->
+            <div class="product-box sushi">
+                <img src="./img\suchi\sushi2.jpg" alt="" class="product-img">
+                <h2 class="product-title">SUSHI</h2>
+                <span class="price">60 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box seven -->
+            <div class="product-box sushi">
+                <img src="./img\suchi\sushi3.jpg" alt="" class="product-img">
+                <h2 class="product-title">SUSHI</h2>
+                <span class="price">60 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box eight -->
+            <div class="product-box sushi">
+                <img src="./img\suchi\sushi4.jpg" alt="" class="product-img">
+                <h2 class="product-title">SUSHI</h2>
+                <span class="price">60 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box nine -->
+            <div class="product-box salade">
+                <img src="./img\salade\salade1.jpg" alt="" class="product-img">
+                <h2 class="product-title">SALADE</h2>
+                <span class="price">100 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box ten -->
+            <div class="product-box salade">
+                <img src="./img\salade\salade2.jpg" alt="" class="product-img">
+                <h2 class="product-title">SALADE</h2>
+                <span class="price">100 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box eleven -->
+            <div class="product-box salade">
+                <img src="./img\salade\salade3.jpg" alt="" class="product-img">
+                <h2 class="product-title">SALADE</h2>
+                <span class="price">100 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+
+            <!-- box twelve -->
+            <div class="product-box salade">
+                <img src="./img\salade\salade4.jpg" alt="" class="product-img">
+                <h2 class="product-title">SALADE</h2>
+                <span class="price">100 DH</span>
+                <i class="fa-solid fa-bag-shopping add-cart"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="new-footer">
+            <div class="links">
+                <p class="first">Quick Links</p>
+                <div class="info-links">
+                    <p>About Us</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Help</p>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p class="second">Contact Info</p>
+                <div class="info-text">
+                    <p>05 quartier EL quoress Safi</p>
+                    <p>+(256)6-25-26-50-46</p>
+                </div>
+            </div>
+            
+            <div class="connect">
+                <p class="third">Connect</li>
+                <div class="info-connect">
+                    <i class="fa-brands fa-square-facebook fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2022 All rights reserved | Mohamed</p>
+        </div>
+    </footer> 
+
+    <script src="./script_cart.js"></script>
+        <!--source des icons-->
+        <script src="https://kit.fontawesome.com/7dc511734a.js" crossorigin="anonymous"></script>
+</body>
+</html>
