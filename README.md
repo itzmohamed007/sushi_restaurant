@@ -1,2 +1,2 @@
 # sushi_restaurant
-hitaka sushi restaurant is a japanese restaurant specialized in japanese food
+Hitaka est un restaurent asiatique japonais spécialisé en Sushi qui souhaite renforcer sa présence sur le marché en introduisant son nouveau site web.
